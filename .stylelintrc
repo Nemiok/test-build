@@ -1,0 +1,4 @@
+{
+  "extends": ["@sh/stylelint-config-react"],
+  "customSyntax": "@linaria/postcss-linaria"
+}

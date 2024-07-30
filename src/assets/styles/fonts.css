@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'SB Sans Display';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url('~@/assets/fonts/SBSansDisplay/WOFF2/SBSansDisplay-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('~@/assets/fonts/SBSansDisplay/WOFF2/SBSansDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Display';
+  font-style: normal;
+  font-weight: 600;
+  src:
+  url('~@/assets/fonts/SBSansDisplay/WOFF2/SBSansDisplay-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Interface';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('~@/assets/fonts/SBSansInterface/WOFF2/SBSansUI-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Interface';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('~@/assets/fonts/SBSansInterface/WOFF2/SBSansUI-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('~@/assets/fonts/SBSansText/WOFF2/SBSansText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('~@/assets/fonts/SBSansText/WOFF2/SBSansText-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SB Sans Text';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('~@/assets/fonts/SBSansText/WOFF2/SBSansText-Semibold.woff2') format('woff2');
+}

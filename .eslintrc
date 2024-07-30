@@ -1,0 +1,24 @@
+{
+  "extends": ["@sh/eslint-config-react"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "./tsconfig.json"
+      }
+    }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/__tests__/*.{ts,tsx}",
+          "**/mocks/*.{ts,js}",
+          "**/jest.setup.js",
+          "**/jest.tsx",
+          "**/*.spec.{ts,tsx}"
+        ]
+      }
+    ]
+  }
+}

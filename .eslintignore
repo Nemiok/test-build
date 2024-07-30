@@ -1,0 +1,6 @@
+.eslintrc
+.next
+coverage
+build
+node_modules
+out
