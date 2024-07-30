@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { DefaultLayout } from '@/ui/layouts/DefaultLayout'
 
 export const IndexPage = () => {
+  const [err, setErr] = useState('')
   useEffect(() => {
     if ('OTPCredential' in window) {
       window.addEventListener('DOMContentLoaded', (e) => {
@@ -37,6 +38,7 @@ export const IndexPage = () => {
           })
           .catch((error) => {
             console.error(error)
+            setErr(`Error:${error.message}`)
           })
       })
     }
@@ -59,7 +61,7 @@ export const IndexPage = () => {
             }}
           />
         </form>
-        cake
+        {err}
       </div>
     </DefaultLayout>
   )
