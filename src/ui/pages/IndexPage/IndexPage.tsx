@@ -50,7 +50,7 @@ export const IndexPage = () => {
       <div>
         <h1>Index Page</h1>
         <form>
-          <SMSField
+          {/* <SMSField
             autoComplete="one-time-code"
             inputMode="numeric"
             type="text"
@@ -58,7 +58,8 @@ export const IndexPage = () => {
             onChange={(e) => {
               setValue(e.target.value)
             }}
-          />
+          /> */}
+          <input autoComplete="one-time-code" inputMode="numeric" type="text" value={value} />
         </form>
         {err}
         <h1>hello</h1>
