@@ -44,7 +44,6 @@ export const IndexPage = () => {
     }
   }, [])
   const [value, setValue] = useState('')
-  console.log(value)
 
   return (
     <DefaultLayout>
@@ -62,6 +61,7 @@ export const IndexPage = () => {
           />
         </form>
         {err}
+        <h1>hello</h1>
       </div>
     </DefaultLayout>
   )
