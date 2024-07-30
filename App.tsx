@@ -4,9 +4,7 @@ import './App.css'
 function App() {
 
   useEffect(() => {
-    if ('OTPCredential' in window) {
-      window.addEventListener('DOMContentLoaded', () => {
-        const input = document.querySelector('input[autocomplete="one-time-code"]');
+        const input = document.querySelector('#her');
         if (!input) return;
         const ac = new AbortController();
         const form = input.closest('form');
@@ -28,14 +26,12 @@ function App() {
         }).catch(err => {
           console.log(err);
         });
-      });
-    }
   },[])
 
   return (
     <div>
       <form >
-        <input autoComplete="one-time-code" inputMode="numeric" type="text" />
+        <input autoComplete="one-time-code" inputMode="numeric" id='her' type="text" />
       </form>
     </div>  
   )
