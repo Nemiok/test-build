@@ -1782,20 +1782,20 @@
   dependencies:
     "@sds/icon" "^1.14.0"
 
-"@sds/tokens-colors@^1.1.6":
-  version "1.1.6"
-  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens-colors/-/tokens-colors-1.1.6.tgz#55c96dbab7e002a5f038a816e093e1f143d35586"
-  integrity sha512-tzhu2v4dPhncRh57bBWmUTLUbd26jUGDzBEnOuSUClOgaxOd07TzFQH1n4y9ST+FQuI0QyiOzJp+QGE6+Xp1EA==
+"@sds/tokens-colors@^1.2.2":
+  version "1.2.2"
+  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens-colors/-/tokens-colors-1.2.2.tgz#5bdbc28925246de2be315efce43e810e511baf46"
+  integrity sha512-WACi+RMt8pHoS+CGW2JJvarcn/ug9+ZZ5a6WoLwpvykJOmTPawa5ED1nSADu0SJ0nzooWGYgdXo+kb+sYfDffg==
 
-"@sds/tokens-typography@^2.1.0":
-  version "2.1.0"
-  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens-typography/-/tokens-typography-2.1.0.tgz#dd65f9d0c997ec81b6ea3ff5e046995f5c4b434f"
-  integrity sha512-kbGqbYEl2PJpaB3E3IxZBKbUK1t2ogmqj+nuT7johsApzuUbZwWFfQAcma15/AeMy+aS7gYHFk02456q2GYZfA==
+"@sds/tokens-typography@^3.0.2":
+  version "3.0.2"
+  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens-typography/-/tokens-typography-3.0.2.tgz#14e13696d6c98c168a78abff409e537d99750acd"
+  integrity sha512-RG8LqA+8n9LZqSUfHmyBlBZBR+0Yv289s1MEb4ZU5CYZFEexCjtkpNwoR3qFzH+Wp2v1ciDaRekRETqv8gP3pw==
 
-"@sds/tokens@^1.6.0":
-  version "1.6.0"
-  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens/-/tokens-1.6.0.tgz#9dffdcbadcf75890eaeeb324d7eee5a1c46e457d"
-  integrity sha512-45uAjVy+si5knFZuLKjGvAprPSXBmK8aToEnIAKMDiUv/mAn17RGVCAh2uG7X/hA5eWM7mZU+Sm3E9RM1h59+g==
+"@sds/tokens@^1.7.1":
+  version "1.7.1"
+  resolved "https://nexus.sberhealth.pro/repository/npm-group/@sds/tokens/-/tokens-1.7.1.tgz#e4dea2ef59d3a26fb8094ed8744bae1448f1f2f3"
+  integrity sha512-ygdAmjOMPIeog+du+PM3ACt+rJ/PJjRkasx+e/NxuJEo2sJ7MLDqNyDx1gzNmZEUbgmaXSzHvT6KA/4HOSoxcA==
 
 "@sentry-internal/tracing@7.76.0":
   version "7.76.0"
