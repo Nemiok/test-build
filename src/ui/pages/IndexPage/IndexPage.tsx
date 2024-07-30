@@ -59,6 +59,7 @@ export const IndexPage = () => {
             }}
           />
         </form>
+        cake
       </div>
     </DefaultLayout>
   )
